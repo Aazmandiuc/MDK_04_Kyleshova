@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-17T12:37:25.763Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.1024 YaBrowser/23.9.1.1024 (corp) Yowser/2.5 Safari/537.36" etag="9tLx52NsRu5r8EhqgjYq" version="22.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-17T12:39:30.882Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.1024 YaBrowser/23.9.1.1024 (corp) Yowser/2.5 Safari/537.36" etag="ipsLOA5pdYHcUsKrzzBj" version="22.1.2" type="github">
   <diagram name="Страница — 1" id="kmeITi0ijy-9kRvaVtel">
-    <mxGraphModel dx="1741" dy="1776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1808" dy="1848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1168,14 +1168,15 @@
         <mxCell id="2hiuAOLTdW-VBoG8UOYG-392" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;В массиве есть столбец?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="-700" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="2hiuAOLTdW-VBoG8UOYG-402" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2hiuAOLTdW-VBoG8UOYG-397" target="2hiuAOLTdW-VBoG8UOYG-401">
+        <mxCell id="2hiuAOLTdW-VBoG8UOYG-447" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="2hiuAOLTdW-VBoG8UOYG-397" target="2hiuAOLTdW-VBoG8UOYG-401">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2hiuAOLTdW-VBoG8UOYG-397" value="Счётчик попыток +1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2hiuAOLTdW-VBoG8UOYG-397" value="Счётчик невхождений +1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="660" y="-480" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2hiuAOLTdW-VBoG8UOYG-403" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0000;" edge="1" parent="1" source="2hiuAOLTdW-VBoG8UOYG-401" target="2hiuAOLTdW-VBoG8UOYG-364">
+        <mxCell id="2hiuAOLTdW-VBoG8UOYG-403" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0000;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="2hiuAOLTdW-VBoG8UOYG-401" target="2hiuAOLTdW-VBoG8UOYG-364">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="-560" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="560" y="-560" />
               <mxPoint x="560" y="-380" />
@@ -1195,10 +1196,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2hiuAOLTdW-VBoG8UOYG-401" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Попыток = 100?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2hiuAOLTdW-VBoG8UOYG-401" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Невхождений = 10?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="650" y="-600" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="2hiuAOLTdW-VBoG8UOYG-405" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;b&gt;Вывести сообщение:&lt;br&gt;&lt;/b&gt;&quot;В массиве 1 нет знач&lt;/font&gt;ений находящихся в диапазоне&quot;&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2hiuAOLTdW-VBoG8UOYG-448" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2hiuAOLTdW-VBoG8UOYG-405" target="2hiuAOLTdW-VBoG8UOYG-392">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2hiuAOLTdW-VBoG8UOYG-405" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;b&gt;Вывести сообщение:&lt;br&gt;&lt;/b&gt;&quot;В столбце Х нет знач&lt;/font&gt;ений находящихся в диапазоне&quot;&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="870" y="-595" width="200" height="70" as="geometry" />
         </mxCell>
         <mxCell id="2hiuAOLTdW-VBoG8UOYG-446" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="2hiuAOLTdW-VBoG8UOYG-441" target="2hiuAOLTdW-VBoG8UOYG-392">
