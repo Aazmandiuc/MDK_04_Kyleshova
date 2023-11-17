@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-17T11:38:57.493Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.1024 YaBrowser/23.9.1.1024 (corp) Yowser/2.5 Safari/537.36" etag="K3I8p8VnNKYABE5qJ7R2" version="22.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-17T11:42:32.784Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.1024 YaBrowser/23.9.1.1024 (corp) Yowser/2.5 Safari/537.36" etag="h9u7UMVla4uAEBX_pHVg" version="22.1.2" type="github">
   <diagram name="Страница — 1" id="kmeITi0ijy-9kRvaVtel">
-    <mxGraphModel dx="2031" dy="1731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1356" dy="1746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1069,6 +1069,9 @@
           <mxGeometry x="324" width="36" height="28" as="geometry">
             <mxRectangle width="36" height="28" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="2hiuAOLTdW-VBoG8UOYG-348" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: 14px; background-color: initial;&quot;&gt;Даны два двумерных массива&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;целочисленных элементов. Размер исходных массивов не превосходит 10х10&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;элементов. Для каждого столбца массивов вычислить суммы и количества элементов,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;значения которых находятся в заданном диапазоне. Если чисел, удовлетворяющих&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font size=&quot;3&quot;&gt;этому условию нет, то вывести соответствующее сообщение. Вычисление для&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font size=&quot;3&quot;&gt;элементов столбца массива оформить в виде процедуры с передачей в нее всех&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;font size=&quot;3&quot;&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;необходимых элементов.&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="630" y="-840" width="420" height="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
